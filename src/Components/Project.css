@@ -1,0 +1,191 @@
+
+.project-container{
+    overflow: hidden;
+    height: 1300px;
+}
+.project-name{
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#project{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+    color: aliceblue;
+}
+.project-card{
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.pro-text1{
+    margin-top: 450px;
+    font-weight: 800;
+    color: rgb(244, 246, 247);
+}
+.calculator-button{
+    background-image: url('./project-img.avif');
+    width: 300px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    border: none;
+    animation: cal-ani 0.3s ease forwards ;
+   
+}
+
+.project-heading{
+    font-size: x-large;
+    color: rgb(254, 254, 255);
+}
+.project-text{
+    font-weight: 700;
+    margin-top: 300px;
+    color: rgb(245, 238, 238);
+
+}
+.todolist-button{
+    background-image: url('./project-img.avif');
+    width: 300px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    border: none;
+    animation: todo-ani 0.3s ease-out forwards ;
+    
+    
+}
+.formvalidation-button{
+    background-image: url("./project-img.avif");
+    width: 300px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    border: none;
+    animation: form-ani 0.3s ease-out forwards ;
+}
+.portfolio-button{
+    background-image: url("./project-img.avif");
+    width: 300px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    border: none;
+    animation: portfolio-ani 0.3s ease-out forwards ;
+}
+.weather-button{
+    background-image: url("./project-img.avif");
+    width: 300px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    border: none;
+    animation: weather-ani 0.3s ease-out forwards ;
+}
+.xogame-button{
+    background-image: url("./project-img.avif");
+    width: 300px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    border: none;
+    animation: xogame-ani 0.3s ease-out forwards ;
+
+}
+
+
+@keyframes xogame-ani {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 300px;
+        height: 450px;
+    }
+    
+}
+@keyframes cal-ani {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 300px;
+        height: 450px;
+    }
+    
+}
+@keyframes todo-ani {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 300px;
+        height: 450px;
+    }
+    
+}
+@keyframes form-ani {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 300px;
+        height: 450px;
+    }
+    
+}
+@keyframes portfolio-ani {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 300px;
+        height: 450px;
+    }
+    
+}
+@keyframes weather-ani {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 300px;
+        height: 450px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:426px){
+    .project-container{
+        height: 3250px;
+    }
+    .project-row{
+        margin-top: -50px;
+    }
+}

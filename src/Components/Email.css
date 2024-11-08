@@ -1,0 +1,62 @@
+.inputbox{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 50px;
+    margin: 30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    background-color: rgb(46, 43, 43);
+    box-sizing:content-box ;
+    color: azure;
+}
+#contact{
+    padding: 100px ;
+    margin-left: -12px;
+    margin-right: -12px;
+    color: aliceblue;
+}
+
+
+.submitbutoon{
+    background-color: blue;
+    margin-left: 100px;
+    width: 150px;
+}
+.inputgrp{
+    background-color: rgb(46, 43, 43); 
+}
+.message-input{
+    height: 100px;
+}
+.contact-text{
+    font-weight: 600;
+}
+.text-hm{
+    font-weight: 800;
+    font-size: 80px;
+}
+
+@media (max-width:426px){
+    .contact{
+        width: 426px;
+    }
+    .inputbox{
+        width: 300px;
+        margin-left: -50px;
+    }
+    .contact-text{
+        margin-top: -50px;
+    }
+    .submitbutoon{
+        margin-left: 20px;
+        
+    }
+    .text-hm{
+        margin-left: -90px;
+    }
+    .text-i{
+        margin-left: -80px;
+    }
+    
+}

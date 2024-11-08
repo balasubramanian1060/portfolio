@@ -1,0 +1,136 @@
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(3, 3, 3);
+    top: 0px;
+    margin-top: 0px;
+
+
+}
+
+.homepage-summery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    
+
+}
+
+.typewriter {
+    height: 40px;
+    color: brown;
+}
+
+
+
+.home-text {
+    color: azure;
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 100px;  
+}
+.icon-container{
+    color: aliceblue;
+    display: flex;
+    
+}
+
+
+/* phone */
+
+@media (max-width: 426px) {
+    .home-container {
+        flex-direction: column;
+        margin-left: 20px;
+        overflow-x: hidden;
+    }
+
+    .home-text {
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .img {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .home-icon {
+        width: 20px;
+        height: 20px;
+        color: white;
+    }
+}
+
+
+@media (min-width: 426px) and (max-width: 767px) {
+    .home-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .home-text {
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    .img {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .icon-container {
+        justify-content: flex-start;
+    }
+}
+
+/* tab */
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .img {
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .icon-container {
+        gap: 20px;
+    }
+}
+
+/* lap */
+@media (min-width: 992px) {
+    .home-container {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 50px;
+    }
+    .homepage-summery{
+        margin-left: -30px;
+    }
+
+    .img {
+        width: 500px;
+        margin-top: 0;
+        margin-left: -40px;
+    }
+
+    .icon-container {
+        gap: 25px;
+    }
+}
