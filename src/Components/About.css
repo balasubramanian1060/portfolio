@@ -6,11 +6,7 @@
  
     
 }
-.bala-img {
-    width: 450px;
-    margin: 100px;
-    border-radius: 10px;
-}
+
 .about-name{
     color: rgb(255, 255, 255);
     margin-top: 100px;
@@ -54,9 +50,17 @@ a.nav-link.active{
   .skills{
     width: 350px;
   }
-  .about-abouttext{
+  .about-container{
     width: auto;
+  
   }
+  .about-abouttext{
+    margin-left: -350px;
+  }
+  .about-img{
+    display: none;
+  }
+ 
 }
 /* tab */
 

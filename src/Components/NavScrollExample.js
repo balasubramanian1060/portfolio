@@ -10,7 +10,7 @@ function NavScrollExample() {
 
   return (
         
-        <div className="navbar" >
+        
       <Navbar collapseOnSelect expand="lg" className="bar fixed-top bg-transparent ">
         <Container className="nav-container">
           <Navbar.Brand href="#home" className="text-white">BALA</Navbar.Brand>
@@ -40,7 +40,7 @@ function NavScrollExample() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
+    
   );
 }
 
