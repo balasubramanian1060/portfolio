@@ -9,7 +9,7 @@ function Project() {
                 <div className="project-name">My Project</div>
                 <Col xs={12} md={6} lg={4}>
                     <div className="project-card">
-                        <a href="http://localhost:3000/">
+                        <a href="https://bala-calculator-app.netlify.app/">
                             <button className="calculator-button">
                                 <p className="project-text">
                                     <b className="project-heading">Calculator</b>
@@ -48,23 +48,27 @@ function Project() {
             <Row className="project-row">
                 <Col xs={12} md={6} lg={4} >
                     <div className="project-card">
+                        <a href="https://bala-todo-app.netlify.app/">
                         <button className="todolist-button">
                             <p className="project-text">
                                 <b className="project-heading">TO DO List</b>
                                 <p>I created a TO DO list app using HTML, CSS, JavaScript, and React</p>
                             </p>
                         </button>
+                        </a>
                     </div>
                 </Col>
 
                 <Col xs={12} md={6} lg={4} >
                     <div className="project-card">
+                        <a href="https://bala-wether-app.netlify.app/">
                         <button className="weather-button">
                             <p className="project-text">
                                 <b className="project-heading">Weather App</b>
                                 <p>I created a weather app using HTML, CSS, JavaScript, and React</p>
                             </p>
                         </button>
+                        </a>
                     </div>
                 </Col>
 
