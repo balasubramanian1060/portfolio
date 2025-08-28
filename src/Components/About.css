@@ -1,37 +1,42 @@
 .about-container, .about-container2{
-    background-color: rgb(30, 29, 29);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     height: auto;
     width: auto;
     
  
     
 }
+.about-img{
+    width: 350px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 100px;
+}
 
+div.ESR-container{
+
+    margin-left: 0px;
+}
 .about-name{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-top: 100px;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 600;
   
     
 }
 
 
 #about-summery{
-    font-size: 20px;
+    font-size: 1.2rem;
     
     
 }
 .skills{
     width: 500px; 
 }
-.ESR-container{
-    display: inline;
-    
-    
-    
-}
+
 .edu-text{
     padding: 10px;
 }
@@ -42,7 +47,8 @@
     margin: 20px;
 }
 a.nav-link{
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 500;
 }
 a.nav-link.active{
     color: rgb(206, 5, 5) !important;
@@ -50,10 +56,8 @@ a.nav-link.active{
 
 /* phone */
 
-@media  ( max-width:426px ){
-  .skills{
-    width: 350px;
-  }
+@media (min-width:426px) and (max-width:769px){ 
+  
   .about-container{
     width: auto;
   
@@ -61,20 +65,16 @@ a.nav-link.active{
   .about-abouttext{
     margin-left: -390px;
   }
-  .about-img{
-    display: none;
+  img.about-img{
+    margin-left: 200px;
   }
- 
+  .skills-bar{
+    width: 30px;
+  }
 }
 /* tab */
 
-@media (min-width:426px) and (max-width:769px){    
-    .ESR-container{
-        margin-left: -150px;
-       
-    }
 
-}
 @media (min-width:770px) {  
     .about-abouttext{
         margin-left: -150px;
@@ -93,5 +93,21 @@ a.nav-link.active{
     }
     .about-container{
         height: 800px;
+        width: 100%;
     }
+}
+@media (min-width:  1024px) {
+
+    .ESR-container{
+   margin-left: 450px;
+   
+    
+    
+    
+    }
+
+   
+
+
+
 }

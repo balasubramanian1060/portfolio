@@ -1,11 +1,12 @@
 
 .project-container{
     overflow: hidden;
-    height: 1300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
 }
 .project-name{
-    font-weight: 900;
-    font-size: xx-large;
+    font-weight: 800;
+    font-size:50px ;
     text-align: center;
     margin-top: 100px;
 }
@@ -13,8 +14,8 @@
 #project{
     margin-top: 50px;
     margin-bottom: 100px;
-    
-    color: aliceblue;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
 }
 .project-card{
     margin-top: 50px;
@@ -24,8 +25,8 @@
 }
 .pro-text1{
     margin-top: 450px;
-    font-weight: 800;
-    color: rgb(244, 246, 247);
+    font-weight: 600;
+    color: rgb(0, 0, 0);
 }
 .calculator-button{
     background-image: url('./project-img.avif');
@@ -35,16 +36,16 @@
     background-size: cover;
     border-radius: 7px;
     border: none;
-    animation: cal-ani 0.3s ease forwards ;
+    
    
 }
 
 .project-heading{
     font-size: x-large;
-    color: rgb(254, 254, 255);
+    color: rgb(255, 255, 255);
 }
 .project-text{
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 300px;
     color: rgb(245, 238, 238);
 
@@ -57,9 +58,6 @@
     background-size: cover;
     border-radius: 7px;
     border: none;
-    animation: todo-ani 0.3s ease-out forwards ;
-    
-    
 }
 .formvalidation-button{
     background-image: url("./project-img.avif");
@@ -69,7 +67,7 @@
     background-size: cover;
     border-radius: 7px;
     border: none;
-    animation: form-ani 0.3s ease-out forwards ;
+    
 }
 .portfolio-button{
     background-image: url("./project-img.avif");
@@ -79,7 +77,7 @@
     background-size: cover;
     border-radius: 7px;
     border: none;
-    animation: portfolio-ani 0.3s ease-out forwards ;
+    
 }
 .weather-button{
     background-image: url("./project-img.avif");
@@ -89,7 +87,7 @@
     background-size: cover;
     border-radius: 7px;
     border: none;
-    animation: weather-ani 0.3s ease-out forwards ;
+    
 }
 .xogame-button{
     background-image: url("./project-img.avif");
@@ -99,77 +97,10 @@
     background-size: cover;
     border-radius: 7px;
     border: none;
-    animation: xogame-ani 0.3s ease-out forwards ;
+    
 
 }
 
-
-@keyframes xogame-ani {
-    0%{
-        width: 100px;
-        height: 100px;
-    }
-    100%{
-        width: 300px;
-        height: 450px;
-    }
-    
-}
-@keyframes cal-ani {
-    0%{
-        width: 100px;
-        height: 100px;
-    }
-    100%{
-        width: 300px;
-        height: 450px;
-    }
-    
-}
-@keyframes todo-ani {
-    0%{
-        width: 100px;
-        height: 100px;
-    }
-    100%{
-        width: 300px;
-        height: 450px;
-    }
-    
-}
-@keyframes form-ani {
-    0%{
-        width: 100px;
-        height: 100px;
-    }
-    100%{
-        width: 300px;
-        height: 450px;
-    }
-    
-}
-@keyframes portfolio-ani {
-    0%{
-        width: 100px;
-        height: 100px;
-    }
-    100%{
-        width: 300px;
-        height: 450px;
-    }
-    
-}
-@keyframes weather-ani {
-    0%{
-        width: 100px;
-        height: 100px;
-    }
-    100%{
-        width: 300px;
-        height: 450px;
-    }
-    
-}
 
 
 
@@ -183,9 +114,10 @@
 
 @media (max-width:426px){
     .project-container{
-        height: 3250px;
+        height: auto;
+       
     }
     .project-row{
-        margin-top: -50px;
+        margin-top: -0px;
     }
 }

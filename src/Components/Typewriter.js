@@ -7,7 +7,7 @@ function Hometext() {
       <div >
         <h1>
           <Typewriter
-            words={['Front End Developer.', 'React Developer.', 'UI Designer.']}
+            words={['Front End Developer...', 'React Developer...','Web developer...']}
             loop={true}
             typeSpeed={100}
             deleteSpeed={50}

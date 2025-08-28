@@ -1,20 +1,22 @@
 import NavScrollExample from './Components/NavScrollExample';
 import './App.css';
-import Home from "./Components/Home"
-import About from "./Components/About"
+import Home from "./Components/Home";
+import About from "./Components/About";
 import Project from './Components/Project';
-import Email from "./Components/Email";
+import ContactUs from './Components/ContactUs';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      < NavScrollExample/>
-      < Home/>
-      < About/>
-      < Project/>
-      < Email/>
+      <NavScrollExample />
+      <Home />
+      <About />
+      <Project />
+      <ContactUs />
+      
     </div>
   );
 }

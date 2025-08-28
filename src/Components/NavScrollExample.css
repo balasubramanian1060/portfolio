@@ -1,49 +1,50 @@
- .bar{
-  
-  top: auto;
+
+.bar {
+  position:relative;
+  overflow-y: hidden;
+  top: 0px;
   left: 0;
-  
+  width: 100%;
   z-index: 1000;
-  margin-top: 0px;
-  padding: 0%;
-  margin-top: 10px; 
-  
-  
+  background-color:rgb(0, 0, 0); 
+ 
+}
+#hometext{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-left: -10px;
+  margin-top: 15px;
 }
 
-
-
 .navbar .navbar-nav .nav-link {
-  color: whitesmoke !important; 
+  color: rgb(0, 0, 0) !important;
   font-size: 1.1rem;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 
 .navbar .navbar-nav .nav-link.active {
-  color: #fd0101 !important;  
-  text-decoration: underline; 
-  text-underline-position: under;
-
+  color: #ff0505 !important;
+  text-decoration: underline;
 }
-
 
 .navbar .navbar-nav .nav-link:hover {
-  color: #6d0a0a !important;
-
+  color: #eb0505 !important;
 }
-button.navbar-toggler{
-  background-color: rgb(212, 12, 5);
+
+
+button.navbar-toggler {
+  background-color: rgb(255, 9, 0);
   border: none;
 }
-.bar .fixed-top .bg-transparent .navbar .navbar-expand-lg .navbar-ligh{
-  margin-top: 0%;
-}
 
-@media (max-width:426px){
-  .navbar{
-    width: 100%;
-    
+
+
+@media (max-width: 426px) {
+  .navbar {
+   position: fixed;
+   
+   background-color: rgb(147, 151, 154) !important;
   }
 }
-

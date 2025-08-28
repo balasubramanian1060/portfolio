@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Nav from 'react-bootstrap/Nav'
+import balaaboutimg from "./Web_Photo_Editor.jpg"
 
 import "./About.css"
 
@@ -27,10 +28,21 @@ function About() {
             <Container style={{ maxWidth: "1540px" }} className="about-container" id="about" >
                 <Row>
 
-                    <Col  >
-                        <img className="about-img"  alt="bala" ></img>
+                    <Col md="6" >
+                        <img className="about-img" alt="bala"
+                        // data-aos="fade-right"
+                        data-aos-duration="1000"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        src={balaaboutimg}></img>
                     </Col>
-                    <Col className="about-abouttext">
+                    <Col className="about-abouttext" 
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                       
+                        >
                         <p className="about-name" >About Me</p>
                         <p id="about-summery">
                             Passionate frontend developer skilled in HTML, CSS, and JavaScript with a focus on creating
@@ -76,15 +88,15 @@ function About() {
                                         <h2>Skills</h2>
                                         <div className="skills-bar">
                                             <div>HTML</div>
-                                            <ProgressBar now={80} label={`${html}%`} />
+                                            <ProgressBar now={80} label={`${html}%`} style={{width:"300px"}} />
                                             <div>CSS</div>
-                                            <ProgressBar now={85} label={`${css}%`} />
+                                            <ProgressBar now={85} label={`${css}%`} style={{width:"300px"}} />
                                             <div>JavaScript</div>
-                                            <ProgressBar now={60} label={`${Js}%`} />
+                                            <ProgressBar now={60} label={`${Js}%`} style={{width:"300px"}} />
                                             <div>Bootstrap</div>
-                                            <ProgressBar now={90} label={`${bootstrap}%`} />
+                                            <ProgressBar now={90} label={`${bootstrap}%`} style={{width:"300px"}} />
                                             <div>React</div>
-                                            <ProgressBar now={50} label={`${react}%`} />
+                                            <ProgressBar now={50} label={`${react}%`} style={{width:"300px"}} />
                                         </div>
                                     </div>
                                 )}
