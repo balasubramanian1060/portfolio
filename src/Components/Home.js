@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Typewriter from "./Typewriter"
 import "./Home.css"
-import mypic from "./mypic.png"
+import mypic from "./imgg.png"
 
 function Home() {
     return (
@@ -12,7 +12,7 @@ function Home() {
                     <Col sm={12} md={6} lg={6} >
                         <div className="home-container" 
                         data-aos="fade-right"
-                        data-aos-duration="3000"
+                        data-aos-duration="2000"
                         data-aos-mirror="true"
                         data-aos-once="false" >
                             <div>
@@ -52,7 +52,7 @@ function Home() {
                         data-aos-mirror="false"
                         data-aos-once="true">
                             <div className="img">
-                                <img src={mypic} alt="bala" style={{ width: "450px" }}></img>
+                                <img src={mypic} alt="bala" style={{ width: "560px" }}></img>
                             </div>
                         </div>
                     </Col>

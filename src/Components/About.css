@@ -56,7 +56,7 @@ a.nav-link.active{
 
 /* phone */
 
-@media (min-width:426px) and (max-width:769px){ 
+@media (min-width:425px) and (max-width:642px){ 
   
   .about-container{
     width: auto;
@@ -66,7 +66,7 @@ a.nav-link.active{
     margin-left: -390px;
   }
   img.about-img{
-    margin-left: 200px;
+    display: none;
   }
   .skills-bar{
     width: 30px;

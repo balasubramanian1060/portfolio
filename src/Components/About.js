@@ -34,7 +34,7 @@ function About() {
                         data-aos-duration="1000"
                         data-aos-mirror="true"
                         data-aos-once="false"
-                        src={balaaboutimg}></img>
+                        src={balaaboutimg}   ></img>
                     </Col>
                     <Col className="about-abouttext" 
                         data-aos="fade-left"
