@@ -4,7 +4,9 @@
     top: 0px;
     background-color: rgb(255, 255, 255);
     width: auto;
-    
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     
 
 
@@ -26,7 +28,7 @@
    
 }
 div.home-text {
-    margin-left: -200px;
+    /* margin-left: -200px; */
     text-align: left;
 }
 
@@ -52,7 +54,7 @@ div.home-text {
 div.icon-container{
     color: rgb(0, 0, 0);
     display: flex;
-    margin-left: -170px;
+    /* margin-left: -170px; */
     margin-top: 10px;
     
     
@@ -63,12 +65,13 @@ div.icon-container{
 
 
 
-@media (min-width: 425px) and (max-width: 641px) {
+@media (min-width: 320px) and (max-width: 641px) {
     .home-container {
         flex-direction: row;
-        
+        align-items: center;
+
         padding: 10px;
-       margin-left: 200px;
+       
         
        
     }
@@ -77,6 +80,7 @@ div.icon-container{
         text-align: left;
         width: 100%;
         height: auto;
+         margin-right: 40px;
       
     }
 
@@ -89,6 +93,7 @@ div.icon-container{
     div.icon-container {
         justify-content: flex-start;
         margin-top: -20px;
+        margin-left: 27px;
     }
     .typewriter{
         margin-top: 0;

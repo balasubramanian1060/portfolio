@@ -30,14 +30,15 @@ function About() {
 
                     <Col md="6" >
                         <img className="about-img" alt="bala"
-                        // data-aos="fade-right"
+                        data-aos="fade-right"
                         data-aos-duration="1000"
                         data-aos-mirror="true"
                         data-aos-once="false"
                         src={balaaboutimg}   ></img>
                     </Col>
-                    <Col className="about-abouttext" 
-                        data-aos="fade-left"
+                    <Col md="6" 
+                        className="about-abouttext" 
+                        // data-aos="fade-left"
                         data-aos-duration="1000"
                         data-aos-mirror="true"
                         data-aos-once="false"

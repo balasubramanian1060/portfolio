@@ -3,6 +3,8 @@
     color: rgb(0, 0, 0);
     height: auto;
     width: auto;
+    align-items: center;
+    overflow: hidden;
     
  
     
@@ -56,15 +58,13 @@ a.nav-link.active{
 
 /* phone */
 
-@media (min-width:425px) and (max-width:642px){ 
+@media (min-width:320px) and (max-width:642px){ 
   
   .about-container{
     width: auto;
   
   }
-  .about-abouttext{
-    margin-left: -390px;
-  }
+  
   img.about-img{
     display: none;
   }
